@@ -1,0 +1,30 @@
+.columnzz {
+    float: left;
+    width: 25%;
+
+    font-size: 1em;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+/* Clear floats after the columns */
+.rowzz:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columnzz img {
+    width: 10em;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .columnzz {
+        width: 100%;
+    }
+}
