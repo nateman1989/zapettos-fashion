@@ -217,7 +217,7 @@ ul {
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .columnzz {
+    .columnzz, .jack img, .wilson img, .wilson_text, .jack_text, .bob, .bob img, .bob_text, .imgr, .imgl {
         width: 100% !important;
     }
 }
@@ -277,9 +277,119 @@ iframe {
 }
 
 .team figure {
-    display: block;
-    position: relative;
+    display: block !important;
+    position: relative !important;
     padding: 2em !important;
 
     margin-left: 1em !important;
+}
+
+
+.jack {
+    
+   
+      padding-bottom: 240px !important; 
+}
+
+
+.jack img {
+margin-right: 10px !important; 
+float: left !important; 
+
+}
+
+.jack_text h5{
+    text-align: center !important; 
+}
+.jack_text {
+    padding-top: 45px !important; 
+}
+.wilson {
+
+       padding-bottom: 240px !important;
+}
+.wilson img{
+  
+  float: right !important; 
+    
+}
+
+.wilson_text h5{
+    text-align: center !important; 
+}
+.wilson_text {
+    padding-top: 45px !important; 
+}
+.bob {
+    padding-bottom: 240px !important;  
+}
+
+.bob img {
+    margin-right: 10px !important; 
+     float: left !important;
+}
+.bob_text {
+    padding-top: 45px !important; 
+}
+.bob_text h5{
+    text-align: center !important; 
+}
+.nancy img{
+
+  float: right !important; 
+    
+}
+
+.nancy_text h5{
+    text-align: center !important; 
+}
+.nancy_text {
+    padding-top: 45px !important; 
+}
+
+
+.story {
+    padding-bottom: 100px !important; 
+}
+
+
+.story p{
+    line-height: 2.5em !important; 
+}
+.p_one{
+     text-indent: 30px !important; 
+}
+.p_two{
+      text-indent: 45px !important; 
+}
+
+.p_three {
+      text-indent: 25px !important; 
+}
+.p_four{
+    text-indent: 30px !important; 
+}
+
+.p_five {
+     text-indent: 30px !important; 
+}
+
+.p_six {
+   text-indent: 30px !important;   
+}
+.p_seven {
+    text-indent: 25px !important; 
+}
+
+hr {
+    border: 5px solid black !important; 
+}
+
+
+.dotted {
+    border: 5px dashed black !important; 
+}
+
+.the_tailors {
+    padding-bottom: 100px !important; 
 }
